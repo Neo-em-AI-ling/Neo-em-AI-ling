@@ -1,3 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("PolarisBarcelonaEventKeyframes.react",["Keyframes.react","bx","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=(h||(h=d("react"))).unstable_useMemoCache,j=h;function a(a){var b=i(4);a=a.width;var d;b[0]===Symbol["for"]("react.memo_cache_sentinel")?(d="x1ey2m1c xds687c x5yr21d x47corl x10l6tqk x17qophe xh8yej3 x1vjfegm",b[0]=d):d=b[0];var e;b[1]===Symbol["for"]("react.memo_cache_sentinel")?(e=c("bx").getURL(c("bx")("14215")),b[1]=e):e=b[1];b[2]!==a?(d=j.jsx("div",{className:d,children:j.jsx(c("Keyframes.react"),{projectName:"barcelona_shimmer",repeatCount:1,source:e,width:a})}),b[2]=a,b[3]=d):d=b[3];return d}g["default"]=a}),98);
