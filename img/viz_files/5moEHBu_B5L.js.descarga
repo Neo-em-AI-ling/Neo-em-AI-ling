@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("KeyframesVersionLogger",["BanzaiLogger","CurrentUser"],(function(a,b,c,d,e,f,g){"use strict";var h="KeyframesFramePerfLoggerConfig",i={appid:256281040558,isemployee:c("CurrentUser").isEmployee()?1:0},j={USE_LEGACY:"keyframes2_used",USE_MODERN:"keyframes3_used"};function k(a,b){c("BanzaiLogger").log(h,babelHelpers["extends"]({},i,{name:a,extras:(a=b)!=null?a:void 0}))}a={logLegacy:function(a){k(j.USE_LEGACY,a)},logModern:function(a){k(j.USE_MODERN,a)}};g.KeyframesVersionLogger=a}),98);

@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("KeyframesDownloadTracker",["NetworkStatus","Promise","XHRRequest","setTimeout"],(function(a,b,c,d,e,f,g){"use strict";var h,i=2,j=250;function a(a){return new(h||(h=b("Promise")))(function(b,d){var e=0,f,g=function f(){e++,new(c("XHRRequest"))(a).setMethod("GET").setResponseType("arraybuffer").setErrorHandler(function(a){var b=e<=i;b?c("setTimeout")(f,j):d(a)}).setAbortHandler(function(a){d(a)}).setResponseHandler(function(a){b(a)}).send()};if(c("NetworkStatus").isOnline())g();else{var h=function(a){a=a.online;a&&(g(),f.remove())};f=c("NetworkStatus").onChange(h)}})}g["default"]=a}),98);
