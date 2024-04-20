@@ -1,5 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("PolarisPostShareQRCodeRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"6255030754622598",metadata:{},name:"PolarisPostShareQRCodeRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
-__d("PolarisPostShareQRCodeRoot.entrypoint",["JSResourceForInteraction","PolarisPostShareQRCodeRootQuery$Parameters"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){a=a.routeProps;return{queries:{polarisPostShareQRCodeRootQuery:{options:{},parameters:c("PolarisPostShareQRCodeRootQuery$Parameters"),variables:{id:a.media_id}}}}},root:c("JSResourceForInteraction")("PolarisPostShareQRCodeRoot.react").__setRef("PolarisPostShareQRCodeRoot.entrypoint")};g["default"]=a}),98);
-__d("PolarisPostLikedByListDialogQuery_instagramRelayOperation",[],(function(a,b,c,d,e,f){e.exports="7687108631341096"}),null);
